@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="camera" android:id="@+id/board_modify_menu_cam"
+          android:icon="@android:drawable/ic_menu_camera"
+          app:showAsAction="always"/>
+    <item android:title="gallery" android:id="@+id/board_modify_menu_gallery"
+          android:icon="@android:drawable/ic_menu_gallery"
+          app:showAsAction="always"/>
+    <item android:title="upload" android:id="@+id/board_modify_menu_upload"
+          android:icon="@android:drawable/ic_menu_upload"
+          app:showAsAction="always"/>
+</menu>

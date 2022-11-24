@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="camera" android:id="@+id/board_write_menu_cam"
+          android:icon="@android:drawable/ic_menu_camera"
+          app:showAsAction="always"/>
+    <item android:id="@+id/board_write_menu_gallery" android:icon="@android:drawable/ic_menu_gallery"
+          app:showAsAction="always" android:title="gallery"/>
+    <item android:title="Item" android:id="@+id/board_write_upload" android:icon="@android:drawable/ic_menu_upload"  app:showAsAction="always" />
+</menu>

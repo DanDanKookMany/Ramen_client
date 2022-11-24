@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" android:orientation="vertical"
+            android:padding="10dp">
+
+    <TextView
+            android:text="글 제목"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/board_main_title"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+    <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp"/>
+    <TextView
+            android:text="작성자"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/board_main_nickname"/>
+    <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp"/>
+    <TextView
+            android:text="작성 날짜"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/board_main_write_date"/>
+</LinearLayout>
